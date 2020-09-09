@@ -1,0 +1,35 @@
+* {
+    font-family: 'Arapey', serif;
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+}
+
+nav {
+    flex-basis: 20%;
+    position: sticky;
+    align-self: flex-start;
+    padding: 20px 20px 10px 20px;
+    top: 0px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 10%;
+}
+
+main {
+    flex-basis: 80%;
+    padding: 0px 20px 20px 20px;
+    box-shadow: 1px 1px 3px 1px grey;
+}
+
+h1 {
+    text-align: right;
+}
+
+h2 {
+    padding-left: 6%;
+}
