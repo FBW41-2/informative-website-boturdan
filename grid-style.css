@@ -4,13 +4,14 @@
 }
 
 .container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
 
 nav {
-    flex-basis: 20%;
-    position: sticky;
+    display: flex;
     align-self: flex-start;
+    position: sticky;
     padding: 20px 20px 10px 20px;
     top: 0px;
 }
@@ -21,7 +22,6 @@ ul {
 }
 
 main {
-    flex-basis: 80%;
     padding: 0px 20px 20px 20px;
     box-shadow: 1px 1px 3px 1px grey;
 }
